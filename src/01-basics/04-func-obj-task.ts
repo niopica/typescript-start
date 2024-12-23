@@ -39,7 +39,7 @@ const admin: Admin = {
   role: 'SuperAdmin',
 };
 
-function login(user: { login: string; password: string }): void {
+export function login(user: { login: string; password: string }): void {
   if ((user.login.length > 0, user.password.length > 0)) {
     console.log(`Добро пожаловать`, user.login);
   }

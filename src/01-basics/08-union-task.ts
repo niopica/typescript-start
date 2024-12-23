@@ -6,7 +6,7 @@ interface Developer {
   level: Level;
 }
 
-const developer: Developer = {
+export const developer: Developer = {
   login: 'niopica@yandex.ru',
   skills: ['HTML', 'CSS', 'JS'],
   level: 'middle',
