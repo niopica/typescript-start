@@ -8,3 +8,4 @@ function head(value: any): any {
     return value[0];
 }
 
+export interface _fixErrorDuplicate {}

@@ -1,6 +1,6 @@
 // В параметрах функции указывается минимальный набор значений,
 // остальное нас не интересует если больше, если не будет обязательных будет ошибка
-function printPoint(point: { x: string; y: string }): void {
+export function printPoint(point: { x: string; y: string }): void {
   console.log(`Coordinate of the point is x: ${point.x} and y: ${point.y}`);
 }
 
